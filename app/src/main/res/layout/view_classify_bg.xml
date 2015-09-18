@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="暂无数据"
+            android:gravity="center"
+            style="@style/TV_BG"
+            />
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            style="?android:progressBarStyle"
+            android:layout_width="27.0dip"
+            android:layout_height="27.0dip"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></View>
+    </RelativeLayout>
+
+</FrameLayout>
+
